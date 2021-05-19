@@ -265,6 +265,12 @@ $c-fc: #fcfcfc;
       color: $c-97;
       font-weight: 500;
     }
+    .linearBackground {
+      display: block;
+      @include wt-ht(48px, 16px);
+      border-radius: 15px;
+      margin-top: 2px;
+    }
   }
   .chartLoader {
     @include chartLoader(125px);

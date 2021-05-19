@@ -135,7 +135,8 @@ const ProcessesLineChart = () => {
         </div>
         <div className="processData order-0 mt-4 mt-sm-3 mt-md-0 col-12 col-sm-12 col-md-6 col-lg-5  order-sm-0  order-md-1 align-self-center">
           <h6 className="title">PROCESSES</h6>
-          {value && <div className="count">{Utils.convertDigit(value)}</div>}
+          {value && !loader && <div className="count">{Utils.convertDigit(value)}</div>}
+          {loader && <span className="linearBackground" />}
         </div>
       </div>
     </div>
