@@ -71,7 +71,7 @@ export const TilesCard = () => {
   }, []);
 
   return (
-    <div className="row mb-4">
+    <div className="row gy-4">
       {!loader &&
         tilesList.map(item => {
           const {
