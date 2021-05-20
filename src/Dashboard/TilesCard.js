@@ -85,11 +85,11 @@ export const TilesCard = () => {
           } = item;
           return (
             <div
-              className="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2 mb-4"
+              className="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2 mb-3 mb-sm-4"
               key={key}
               id={id}
             >
-              <div className="tileCard p-3 p-md-2">
+              <div className="tileCard p-3 p-md-2 pd-lg-3">
                 <i className={iconClass} style={{ color: color }}>
                   {iconName}
                 </i>

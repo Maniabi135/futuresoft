@@ -106,7 +106,7 @@ const MemoryUsage = () => {
 
   return (
     <div className="memoryUsageSection">
-      <div className="header mb-4 d-flex align-items-center justify-content-between">
+      <div className="header mb-3 mb-sm-4 d-flex align-items-center justify-content-between">
         <span className="title">Memory Usage</span>
         <div className="update d-flex align-items-center">
           <i className="material-icons pr-1">refresh</i>
