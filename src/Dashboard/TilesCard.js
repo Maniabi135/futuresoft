@@ -26,7 +26,7 @@ export const TilesCard = () => {
       value: mailCount,
       iconName: "mail",
       iconClass: "material-icons-outlined",
-      color: "orange"
+      color: "#f48e13"
     },
     {
       name: "Tickets",
@@ -35,7 +35,7 @@ export const TilesCard = () => {
       value: ticketCount,
       iconName: "book_online",
       iconClass: "material-icons-outlined",
-      color: "blue"
+      color: "#03A9F4"
     },
     {
       name: "Customers",
@@ -44,7 +44,7 @@ export const TilesCard = () => {
       value: customerCount,
       iconName: "group",
       iconClass: "material-icons-outlined",
-      color: "orangered"
+      color: "#f6719d"
     }
   ];
 

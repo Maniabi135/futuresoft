@@ -38,7 +38,7 @@ const barColumnChartData = {
       width: 2,
       colors: ["transparent"]
     },
-    colors: ["#f48e13", "#f6719d", "#2196F3"],
+    colors: ["#f48e13", "#f6719d", "#03A9F4"],
     xaxis: {
       categories: ["Feb", "May", "Aug"]
     },

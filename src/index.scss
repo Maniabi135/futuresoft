@@ -214,7 +214,7 @@ $c-fc: #fcfcfc;
 /* -------------- Memory Usage ------------- */
 .memoryUsageSection {
   position: relative;
-  @include pad-bor-shadow-bg(25px);
+  @include pad-bor-shadow-bg(20px);
   .header {
     .title {
       font-size: 18px;
@@ -222,7 +222,7 @@ $c-fc: #fcfcfc;
       color: $c-33;
     }
     .update {
-      color: blue;
+      color: #03A9F4;
       cursor: pointer;
       border-radius: 6px;
       padding: 5px 15px;
@@ -281,7 +281,7 @@ $c-fc: #fcfcfc;
 /* -------------- Latency bar chart section ------------- */
 .latencyBarChartSection {
   position: relative;
-  @include pad-bor-shadow-bg(25px 25px 5px);
+  @include pad-bor-shadow-bg(20px 20px 5px);
   .header {
     position: relative;
     .title {
@@ -294,7 +294,7 @@ $c-fc: #fcfcfc;
       font-size: 15px;
       font-weight: 500;
       color: $c-78;
-      color: blue;
+      color: #03A9F4;
     }
     .linearBackground {
       display: block;
