@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/futuresoft/static/css/main.1d5484b6.chunk.css",
+    "main.js": "/futuresoft/static/js/main.305b11d7.chunk.js",
+    "main.js.map": "/futuresoft/static/js/main.305b11d7.chunk.js.map",
+    "runtime-main.js": "/futuresoft/static/js/runtime-main.9cf0f744.js",
+    "runtime-main.js.map": "/futuresoft/static/js/runtime-main.9cf0f744.js.map",
+    "static/js/2.84d14735.chunk.js": "/futuresoft/static/js/2.84d14735.chunk.js",
+    "static/js/2.84d14735.chunk.js.map": "/futuresoft/static/js/2.84d14735.chunk.js.map",
+    "static/js/3.886649ea.chunk.js": "/futuresoft/static/js/3.886649ea.chunk.js",
+    "static/js/3.886649ea.chunk.js.map": "/futuresoft/static/js/3.886649ea.chunk.js.map",
+    "index.html": "/futuresoft/index.html",
+    "static/css/main.1d5484b6.chunk.css.map": "/futuresoft/static/css/main.1d5484b6.chunk.css.map",
+    "static/js/2.84d14735.chunk.js.LICENSE.txt": "/futuresoft/static/js/2.84d14735.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cf0f744.js",
+    "static/js/2.84d14735.chunk.js",
+    "static/css/main.1d5484b6.chunk.css",
+    "static/js/main.305b11d7.chunk.js"
+  ]
+}
