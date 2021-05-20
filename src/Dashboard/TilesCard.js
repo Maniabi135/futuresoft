@@ -55,7 +55,7 @@ export const TilesCard = () => {
       };
       let res = await makeApi(config);
       const { projects = 30, mails = 234, tickets = 456, customers = 5987 } =
-        res?.data[0] || {};
+        res?.data?.[0] || {};
       setMailCount(mails);
       setCustomerCount(customers);
       setProjectCount(projects);
@@ -71,7 +71,7 @@ export const TilesCard = () => {
   }, []);
 
   return (
-    <div className="row row-gap-25">
+    <div className="row mb-4">
       {!loader &&
         tilesList.map(item => {
           const {

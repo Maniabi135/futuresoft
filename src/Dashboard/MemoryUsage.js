@@ -79,14 +79,19 @@ const MemoryUsage = () => {
         url: API_URLS.processesUrl
       };
       let res = await makeApi(config);
+      debugger;
       const tempData = { ...chartData };
       tempData.series[0].data = res?.data?.length
-        ? res.data[0].total
+        ? res?.data?.[0]?.total
         : totalData;
-      tempData.series[1].data = res?.data?.length ? res.data[0].used : freeData;
-      tempData.series[2].data = res?.data?.length ? res.data[0].free : usedData;
+      tempData.series[1].data = res?.data?.length
+        ? res?.data?.[0]?.used
+        : freeData;
+      tempData.series[2].data = res?.data?.length
+        ? res?.data?.[0]?.free
+        : usedData;
       tempData.options.xaxis.categories = res?.data?.length
-        ? res.data[0].months
+        ? res?.data?.[0]?.months
         : months;
       setChartData({ ...chartData, ...tempData });
       setLoader(false);

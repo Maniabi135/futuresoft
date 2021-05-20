@@ -114,9 +114,9 @@ const LatencyBarChart = () => {
       let res = await makeApi(config);
       const tempData = { ...chartData };
       tempData.series[0].data = res?.data?.length
-        ? res.data[0].data
+        ? res?.data?.[0]?.data
         : defaultData;
-      setMilliSecs(res?.data[0]?.millisecs || 2.3);
+      setMilliSecs(res?.data?.[0]?.millisecs || 2.3);
       setChartData({ ...chartData, ...tempData });
       setLoader(false);
     } catch (err) {

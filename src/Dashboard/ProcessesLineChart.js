@@ -105,10 +105,10 @@ const ProcessesLineChart = () => {
       let res = await makeApi(config);
       const tempData = { ...chartData };
       tempData.series[0].data = res?.data?.length
-        ? res.data[0].data
+        ? res?.data?.[0]?.data
         : defaultData;
       setChartData({ ...chartData, ...tempData });
-      setValue(res?.data[0]?.value || 1597);
+      setValue(res?.data?.[0]?.value || 1597);
       setLoader(false);
     } catch (err) {
       console.error(err);
