@@ -71,7 +71,7 @@ export const TilesCard = () => {
   }, []);
 
   return (
-    <div className="row gy-4">
+    <div className="row">
       {!loader &&
         tilesList.map(item => {
           const {
@@ -85,7 +85,7 @@ export const TilesCard = () => {
           } = item;
           return (
             <div
-              className="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2"
+              className="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2 mb-4"
               key={key}
               id={id}
             >

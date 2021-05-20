@@ -8,16 +8,16 @@ function App() {
   return (
     <div className="container-fluid">
       <TilesCard />
-      <div className="row gy-4 mt-4">
-        <div className="col-12 col-sm-12 col-md-7">
+      <div className="row">
+        <div className="col-12 col-sm-12 col-md-7 mb-4">
           <MemoryUsage />
         </div>
         <div className="col-12 col-sm-12 col-md-5">
-          <div className="row gy-4">
-            <div className="col-12 col-sm-6 col-md-12">
+          <div className="row">
+            <div className="col-12 col-sm-6 col-md-12 mb-4">
               <ProcessesLineChart />
             </div>
-            <div className="col-12 col-sm-6 col-md-12">
+            <div className="col-12 col-sm-6 col-md-12 mb-4">
               <LatencyBarChart />
             </div>
           </div>
