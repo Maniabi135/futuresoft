@@ -104,7 +104,7 @@ export const TilesCard = () => {
       {loader &&
         Array.from({ length: 4 }, (value, index) => (
           <div
-            className="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2"
+            className="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2 mb-3 mb-sm-4"
             key={`tileloader${index}`}
           >
             <div className="tileCardLoader p-3 p-md-2">
