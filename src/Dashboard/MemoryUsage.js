@@ -79,7 +79,6 @@ const MemoryUsage = () => {
         url: API_URLS.processesUrl
       };
       let res = await makeApi(config);
-      debugger;
       const tempData = { ...chartData };
       tempData.series[0].data = res?.data?.length
         ? res?.data?.[0]?.total
